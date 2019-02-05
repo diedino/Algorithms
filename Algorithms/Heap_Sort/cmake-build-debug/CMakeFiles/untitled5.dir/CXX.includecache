@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+K:/C++/untitled5/src/ReadWriter.h
+iostream
+-
+fstream
+-
+
+K:/C++/untitled5/src/main.cpp
+ReadWriter.h
+K:/C++/untitled5/src/ReadWriter.h
+

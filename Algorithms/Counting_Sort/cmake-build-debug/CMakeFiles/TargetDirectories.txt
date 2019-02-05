@@ -1,0 +1,3 @@
+K:/C++/untitled2/cmake-build-debug/CMakeFiles/untitled2.dir
+K:/C++/untitled2/cmake-build-debug/CMakeFiles/edit_cache.dir
+K:/C++/untitled2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
