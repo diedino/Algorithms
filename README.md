@@ -24,3 +24,16 @@ the output sequence.
   Put data 1 at index 2 in output. Decrease count by 1 to place 
   next data 1 at an index 1 smaller than this index.
 ```
+Pseudocode for understanding:
+```
+function countingSort(array, k) is
+  count ← new array of k zeros
+  for i = 1 to length(array) do
+    count[array[i]] ← count[array[i]] + 1
+  for i = 2 to k do
+    count[i] ← count[i] + count[i - 1]
+  for i = length(array) downto 1 do
+    output[count[array[i]]] ← array[i]
+    count[array[i]] ← count[array[i]] - 1
+  return output
+```
