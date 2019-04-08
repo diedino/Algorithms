@@ -1,0 +1,3 @@
+K:/C++/Algorithms/Algorithms/ModuleHometask/cmake-build-debug/CMakeFiles/ModuleHometask.dir
+K:/C++/Algorithms/Algorithms/ModuleHometask/cmake-build-debug/CMakeFiles/edit_cache.dir
+K:/C++/Algorithms/Algorithms/ModuleHometask/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+K:/C++/Algorithms/Algorithms/ModuleHometask/src/Ford-Fulkerson/Ford_Fulkerson.cpp
+limits.h
+-
+iostream
+-
+cstring
+-
+queue
+-
+Ford_Fulkerson.h
+K:/C++/Algorithms/Algorithms/ModuleHometask/src/Ford-Fulkerson/Ford_Fulkerson.h
+
+K:/C++/Algorithms/Algorithms/ModuleHometask/src/Ford-Fulkerson/Ford_Fulkerson.h
+vector
+-
+
+K:/C++/Algorithms/Algorithms/ModuleHometask/src/main.cpp
+iostream
+-
+limits.h
+-
+string.h
+-
+queue
+-
+vector
+-
+Ford-Fulkerson/Ford_Fulkerson.h
+K:/C++/Algorithms/Algorithms/ModuleHometask/src/Ford-Fulkerson/Ford_Fulkerson.h
+
