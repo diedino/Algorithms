@@ -4,14 +4,16 @@
 
 #include <list>
 #include <limits.h>
+#include <iostream>
 #include "Dinic.h"
 
 
-Dinic::Dinic(int V)
+Dinic::Dinic(int V, vector<std::pair<int, int>> pairs)
 {
     adj = new vector<Edge>[V];
     this->V = V;
     level = new int[V];
+    allPairs = pairs;
 }
 
 void Dinic::addEdge(int u, int v, int C)
@@ -99,7 +101,7 @@ int Dinic::dfs(int u, int flow, int t, int start[])
     return 0;
 }
 
-int Dinic::DinicMaxflow(int s, int t)
+int Dinic::dinicMaxflow(int s, int t)
 {
     // Corner case
     if (s == t)
@@ -134,5 +136,13 @@ void Dinic::readFromMatrix(vector<vector<int>> matrix)
                 addEdge(i, j, matrix[i][j]);
             }
         }
+    }
+}
+
+void Dinic::runAlgorithm()
+{
+    for(int i=0; i<allPairs.size(); ++i) {
+        int res = dinicMaxflow(allPairs[i].first, allPairs[i].second);
+        cout << res << endl;
     }
 }

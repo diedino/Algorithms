@@ -29,13 +29,15 @@ private:
     int V; // number of vertex
     int *level ; // stores level of a node
     vector<Edge> *adj;
+    vector<std::pair<int, int>> allPairs;
 public:
-    Dinic(int V);
+    Dinic(int V, vector<std::pair<int, int>> pairs);
+    void runAlgorithm();
     void readFromMatrix(vector<vector<int>> matrix);
     void addEdge(int u, int v, int C);
     bool BFS(int s, int t);
     int dfs(int s, int flow, int t, int ptr[]);
-    int DinicMaxflow(int s, int t);
+    int dinicMaxflow(int s, int t);
 };
 
 

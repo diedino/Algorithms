@@ -8,6 +8,7 @@
 #include <queue>
 #include "Ford_Fulkerson/Ford_Fulkerson.h"
 #include "Edmond_Carp/Edmond_Karp.h"
+#include "Dinic/Dinic.h"
 
 using namespace std;
 
@@ -78,8 +79,11 @@ int main() {
     vector<pair<int,int>> allPairs = findAllPairs(graph);
     Ford_Fulkerson fordFulkerson = Ford_Fulkerson(graph, allPairs);
     Edmond_Karp edmondKarp = Edmond_Karp(graph, allPairs);
+    Dinic dinic = Dinic(graph.size(), allPairs);
+    dinic.readFromMatrix(graph);
     fordFulkerson.runAlgorithm();
     edmondKarp.runAlgorithm();
+    dinic.runAlgorithm();
     return 0;
 }
 

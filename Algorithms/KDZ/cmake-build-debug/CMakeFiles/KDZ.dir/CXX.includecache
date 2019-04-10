@@ -6,31 +6,23 @@
 
 #IncludeRegexTransform: 
 
-K:/C++/KDZ/src/Edmond_Carp/Edmond_Karp.cpp
-queue
+K:/C++/KDZ/src/Dinic/Dinic.cpp
+list
 -
-iostream
--
-Edmond_Karp.h
-K:/C++/KDZ/src/Edmond_Carp/Edmond_Karp.h
-
-K:/C++/KDZ/src/Edmond_Carp/Edmond_Karp.h
-vector
--
-
-K:/C++/KDZ/src/Ford_Fulkerson/Ford_Fulkerson.cpp
 limits.h
 -
-cstring
--
-queue
--
 iostream
 -
+Dinic.h
+K:/C++/KDZ/src/Dinic/Dinic.h
+
+K:/C++/KDZ/src/Dinic/Dinic.h
 vector
 -
-Ford_Fulkerson.h
-K:/C++/KDZ/src/Ford_Fulkerson/Ford_Fulkerson.h
+
+K:/C++/KDZ/src/Edmond_Carp/Edmond_Karp.h
+vector
+-
 
 K:/C++/KDZ/src/Ford_Fulkerson/Ford_Fulkerson.h
 vector
@@ -57,4 +49,6 @@ Ford_Fulkerson/Ford_Fulkerson.h
 K:/C++/KDZ/src/Ford_Fulkerson/Ford_Fulkerson.h
 Edmond_Carp/Edmond_Karp.h
 K:/C++/KDZ/src/Edmond_Carp/Edmond_Karp.h
+Dinic/Dinic.h
+K:/C++/KDZ/src/Dinic/Dinic.h
 
