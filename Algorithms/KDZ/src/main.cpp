@@ -79,8 +79,7 @@ int main() {
     vector<pair<int,int>> allPairs = findAllPairs(graph);
     Ford_Fulkerson fordFulkerson = Ford_Fulkerson(graph, allPairs);
     Edmond_Karp edmondKarp = Edmond_Karp(graph, allPairs);
-    Dinic dinic = Dinic(graph.size(), allPairs);
-    dinic.readFromMatrix(graph);
+    Dinic dinic = Dinic(graph, graph.size(), allPairs);
     fordFulkerson.runAlgorithm();
     edmondKarp.runAlgorithm();
     dinic.runAlgorithm();

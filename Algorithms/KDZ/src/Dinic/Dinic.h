@@ -31,7 +31,7 @@ private:
     vector<Edge> *adj;
     vector<std::pair<int, int>> allPairs;
 public:
-    Dinic(int V, vector<std::pair<int, int>> pairs);
+    Dinic(vector<vector<int>> matrix, int V, vector<std::pair<int, int>> pairs);
     void runAlgorithm();
     void readFromMatrix(vector<vector<int>> matrix);
     void addEdge(int u, int v, int C);

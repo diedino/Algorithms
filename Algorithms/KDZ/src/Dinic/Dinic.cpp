@@ -8,11 +8,12 @@
 #include "Dinic.h"
 
 
-Dinic::Dinic(int V, vector<std::pair<int, int>> pairs)
+Dinic::Dinic(vector<vector<int>> matrix, int V, vector<std::pair<int, int>> pairs)
 {
     adj = new vector<Edge>[V];
     this->V = V;
     level = new int[V];
+    readFromMatrix(matrix);
     allPairs = pairs;
 }
 
