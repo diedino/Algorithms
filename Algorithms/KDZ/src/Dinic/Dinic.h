@@ -11,23 +11,17 @@ using namespace std;
 
 struct Edge
 {
-    int v ;  // Vertex v (or "to" vertex)
-    // of a directed edge u-v. "From"
-    // vertex u can be obtained using
-    // index in adjacent array.
-
-    int flow ; // flow of data in edge
-    int C;    // capacity
-    int rev ; // To store index of reverse
-    // edge in adjacency list so that
-    // we can quickly find it.
+    int v ;
+    int flow ;
+    int C;
+    int rev ;
 };
 
 class Dinic
 {
 private:
-    int V; // number of vertex
-    int *level ; // stores level of a node
+    int V; // вершины
+    int *level ; // уровень в ноде
     vector<Edge> *adj;
     vector<std::pair<int, int>> allPairs;
 public:

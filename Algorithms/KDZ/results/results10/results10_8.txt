@@ -1,0 +1,32 @@
+../input/input_10_0.0.txt
+Ford-Fulkerson time: 978000ns
+
+Edmond-Karp time: 1329000ns
+
+Dinic time: 1002000ns
+
+---------------------------
+../input/input_10_0.5.txt
+Ford-Fulkerson time: 5011000ns
+
+Edmond-Karp time: 933000ns
+
+Dinic time: 995000ns
+
+---------------------------
+../input/input_10_1.0.txt
+Ford-Fulkerson time: 1844000ns
+
+Edmond-Karp time: 994000ns
+
+Dinic time: 998000ns
+
+---------------------------
+../input/input_10_disco.txt
+Ford-Fulkerson time: 1995000ns
+
+Edmond-Karp time: 1873000ns
+
+Dinic time: 2222000ns
+
+---------------------------

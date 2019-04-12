@@ -27,6 +27,8 @@ fstream
 -
 cstring
 -
+chrono
+-
 algorithm
 K:/C++/KDZ/src/algorithm
 vector

@@ -1,0 +1,32 @@
+../input/input_610_0.0.txt
+Ford-Fulkerson time: 593425000ns
+
+Edmond-Karp time: 83048000ns
+
+Dinic time: 2990000ns
+
+---------------------------
+../input/input_610_0.5.txt
+Ford-Fulkerson time: 94437737000ns
+
+Edmond-Karp time: 2758612000ns
+
+Dinic time: 116093000ns
+
+---------------------------
+../input/input_610_1.0.txt
+Ford-Fulkerson time: 506496498000ns
+
+Edmond-Karp time: 9860625000ns
+
+Dinic time: 705036000ns
+
+---------------------------
+../input/input_610_disco.txt
+Ford-Fulkerson time: 72264831000ns
+
+Edmond-Karp time: 1194810000ns
+
+Dinic time: 32046000ns
+
+---------------------------
